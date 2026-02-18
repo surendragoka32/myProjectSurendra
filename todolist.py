@@ -7,7 +7,7 @@ A command-line todo list manager with add, remove, view, and mark complete featu
 import json
 import os
 from datetime import datetime
-
+# Note: For simplicity, this app uses a JSON file to store todos. In a real application, you might want to use a database or more robust storage solution.
 class TodoList:
     def __init__(self, filename='todos.json'):
         self.filename = filename
